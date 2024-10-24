@@ -23,3 +23,11 @@ python3 manage.py startapp api
 /** Run migrations: **/
 python3 manage.py makemigrations
 python3 manage.py migrate
+
+/**  To run server / API**/
+cd customer_orders/
+python3 manage.py runserver
+
+pip install africastalking
+
+pip install twilio

@@ -129,3 +129,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# AfricasTalking settings (for example)
+AFRICASTALKING_USERNAME = 'your_username'
+AFRICASTALKING_API_KEY = 'your_api_key'
+
+# Twilio settings (if using Twilio)
+TWILIO_ACCOUNT_SID = 'your_account_sid'
+TWILIO_AUTH_TOKEN = 'your_auth_token'
+TWILIO_PHONE_NUMBER = 'your_twilio_phone_number'
+
